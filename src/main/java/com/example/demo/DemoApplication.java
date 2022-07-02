@@ -13,7 +13,7 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
-	@RequestMapping("/hello")
+	@RequestMapping("/")
 	String sayHello() {
 		return "Hello AZure 123!";
 	}
